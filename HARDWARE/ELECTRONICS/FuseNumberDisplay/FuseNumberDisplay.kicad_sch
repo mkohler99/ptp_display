@@ -1,0 +1,8190 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "62ee29c4-ad80-486d-b69a-2aed1f794cde")
+	(paper "D")
+	(title_block
+		(title "FUSE LED Board")
+		(date "2023-10-18")
+		(rev "2")
+		(company "Michael Kohler")
+	)
+	(lib_symbols
+		(symbol "0532610371:0532610371"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at -2.5469 5.7304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "0532610371"
+				(at -2.5455 -7.6364 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "0532610371:MOLEX_0532610371"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Molex"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "0532610371_0_0"
+				(rectangle
+					(start -2.54 -5.08)
+					(end 2.54 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED:WS2812NanoMK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 6.604 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812NanoMK_0_0"
+				(text "RGB"
+					(at 3.429 -1.397 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812NanoMK_0_1"
+				(polyline
+					(pts
+						(xy 1.016 -2.032) (xy 3.048 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -3.048) (xy 3.937 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -2.032) (xy 3.937 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -4.572) (xy 2.032 -2.032) (xy 2.032 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.429 -4.064) (xy 4.445 -3.048) (xy 4.445 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.429 -3.048) (xy 4.445 -2.032) (xy 4.445 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -4.064) (xy 3.048 -4.064) (xy 2.032 -2.032) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -5.08)
+					(end -5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812NanoMK_1_1"
+				(text "2020\nNANO"
+					(at 3.048 3.81 0)
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 572.77 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00852b98-f620-4f12-a7c7-6ca9f2eedf73")
+	)
+	(junction
+		(at 403.86 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "022cb922-d833-44c3-865b-3e9bda27e7a9")
+	)
+	(junction
+		(at 464.82 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e6ed9e9-ee09-487f-811b-1ec96cf166ec")
+	)
+	(junction
+		(at 590.55 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f7a7e33-a584-41db-97f4-22aa6b6995c7")
+	)
+	(junction
+		(at 403.86 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11105df0-7d8c-4e10-8487-7cf92a901ce3")
+	)
+	(junction
+		(at 509.27 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12a0a231-90dd-431e-bffe-30288ac13906")
+	)
+	(junction
+		(at 386.08 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14ca4a7d-9bff-4266-9105-9a2636cbb627")
+	)
+	(junction
+		(at 386.08 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a0db2b4-6288-4613-9b04-848dca00e6db")
+	)
+	(junction
+		(at 527.05 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1aa1d702-bf3c-4206-ad3d-f513370bc65e")
+	)
+	(junction
+		(at 482.6 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "208893da-c1b9-4d9b-8a4f-28325b5a8f1e")
+	)
+	(junction
+		(at 403.86 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20e4fbb2-7ab8-46f4-bc8c-5e8dfa1797fb")
+	)
+	(junction
+		(at 608.33 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21aec588-81f4-49b7-acad-386e204ac8c2")
+	)
+	(junction
+		(at 544.83 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2631d259-071f-4812-84b0-5a5844412059")
+	)
+	(junction
+		(at 636.27 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a6477d6-5e92-4dc3-be18-04ac8aa1edfb")
+	)
+	(junction
+		(at 421.64 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b3ab3af-0d1d-4f75-9835-3f5343c2b6b8")
+	)
+	(junction
+		(at 572.77 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b9f52cf-a407-46ab-8fac-2541140de0df")
+	)
+	(junction
+		(at 544.83 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c95ae63-ab57-43c9-a8be-255074208f58")
+	)
+	(junction
+		(at 464.82 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2da56db5-7130-4bbc-ad11-64e777b1805f")
+	)
+	(junction
+		(at 403.86 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3103f3ea-e439-4554-8f4a-958527d41d59")
+	)
+	(junction
+		(at 421.64 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3526cbd0-1e30-4617-8cae-c7006061b80a")
+	)
+	(junction
+		(at 421.64 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a64bf88-face-4557-b1c7-08ff126d32f3")
+	)
+	(junction
+		(at 386.08 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c081e2b-05da-4f97-bc70-2a9f590ee1c5")
+	)
+	(junction
+		(at 654.05 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43a2cb3b-f219-4103-8ed2-38af7cb8ff9d")
+	)
+	(junction
+		(at 421.64 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45ebb2d9-632f-4663-9675-4769ec5749a9")
+	)
+	(junction
+		(at 386.08 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a1e4c4b-4b26-419c-9190-79efde097286")
+	)
+	(junction
+		(at 447.04 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b52cb9a-dbec-497b-9ec5-524f5c3e35bd")
+	)
+	(junction
+		(at 482.6 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dd35f78-3e64-4096-b537-a03c989fb36c")
+	)
+	(junction
+		(at 403.86 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52976bc1-f693-4994-be51-90fae933a945")
+	)
+	(junction
+		(at 447.04 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5482373c-6e19-4508-a0f6-8d53c478038b")
+	)
+	(junction
+		(at 386.08 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5545c552-ec42-445b-9914-2bc9f9b39b4e")
+	)
+	(junction
+		(at 482.6 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59e6b90e-ef74-4561-a63a-dd5833ef07d6")
+	)
+	(junction
+		(at 509.27 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e93d1e1-3ab6-43e1-9fa9-c7953e39ba22")
+	)
+	(junction
+		(at 447.04 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60e8bc9c-cbde-4ebd-97dc-40692a61408b")
+	)
+	(junction
+		(at 527.05 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62b32843-c038-43e7-8daf-8e14d15ec682")
+	)
+	(junction
+		(at 590.55 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63d1fbe7-9ecf-4275-b195-c41c8c3f767c")
+	)
+	(junction
+		(at 654.05 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bcde8ff-3c7a-484b-9362-7cb8e5ff753f")
+	)
+	(junction
+		(at 464.82 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7117b043-ba9a-43df-9604-49b3465ca042")
+	)
+	(junction
+		(at 509.27 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "724873a5-a058-493c-9c30-85b02a34f514")
+	)
+	(junction
+		(at 447.04 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7733088e-43e5-4871-ae7b-71e7006bb757")
+	)
+	(junction
+		(at 464.82 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79ca13b9-8161-4634-8ad2-4c90ed77eb08")
+	)
+	(junction
+		(at 403.86 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81210a67-f7ac-43a6-99e3-b5674d4e693a")
+	)
+	(junction
+		(at 403.86 248.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86c379ea-31a5-4ada-843f-467e259c09e1")
+	)
+	(junction
+		(at 421.64 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c137586-d379-4646-b654-e67d4c87b2ac")
+	)
+	(junction
+		(at 590.55 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92c98ed2-84d1-4431-b74c-01c78b29e59f")
+	)
+	(junction
+		(at 60.96 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93468dd2-b79d-417f-b0b0-186e7bb43744")
+	)
+	(junction
+		(at 464.82 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95bfcfc2-7d98-4af3-85a8-620f556a2e49")
+	)
+	(junction
+		(at 636.27 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99c1eb46-3eb2-430e-bb04-3887626983bd")
+	)
+	(junction
+		(at 527.05 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d5e752e-087d-4e40-af35-7563687148f6")
+	)
+	(junction
+		(at 654.05 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9da71bfd-64c7-4c3c-bb67-21d70db90fad")
+	)
+	(junction
+		(at 386.08 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9eba296e-acf0-4b67-a011-5353d090aa9f")
+	)
+	(junction
+		(at 464.82 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0d11124-069c-421e-9cb2-365ffaf9cd36")
+	)
+	(junction
+		(at 590.55 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a18aecb4-ecc3-4a8b-a58e-9eb47198c406")
+	)
+	(junction
+		(at 608.33 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a70292ca-2888-41e9-b7ad-05712c2a475e")
+	)
+	(junction
+		(at 386.08 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a82e55d3-27f2-4729-9971-f2772f9a8f61")
+	)
+	(junction
+		(at 464.82 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8d4d492-08bd-4829-9641-c4c949f172b6")
+	)
+	(junction
+		(at 544.83 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1004456-3822-483b-a83e-926284da856d")
+	)
+	(junction
+		(at 509.27 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3551575-8cca-4fe9-bbbd-003b0574a859")
+	)
+	(junction
+		(at 421.64 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b45b8f81-b12b-4e8b-9ab4-a1d52a4f9c3c")
+	)
+	(junction
+		(at 386.08 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b533a236-4634-42d0-b372-52c3ee946d54")
+	)
+	(junction
+		(at 386.08 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b68de5b6-c3ef-4176-900a-3bbc5a4906e1")
+	)
+	(junction
+		(at 544.83 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf77c916-721a-4a38-b19f-1645dd03dd47")
+	)
+	(junction
+		(at 527.05 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c493132a-6dd5-4303-97f2-12e53e9d7ec9")
+	)
+	(junction
+		(at 403.86 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7f44b0e-026c-4c2a-a2a0-a716204f1ed1")
+	)
+	(junction
+		(at 636.27 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb9e44e8-45a7-4a39-94e9-35af6dfe54dc")
+	)
+	(junction
+		(at 53.34 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce2b2c89-4494-434d-801e-f345ffd1d56a")
+	)
+	(junction
+		(at 386.08 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd937c4b-d3ed-4966-8e1e-43ac5ccad137")
+	)
+	(junction
+		(at 447.04 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0cb72ea-39a9-46c2-9480-38e4fa807c2d")
+	)
+	(junction
+		(at 636.27 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e38f6b4d-325b-4cad-a208-1b3d817fd8d9")
+	)
+	(junction
+		(at 447.04 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e41443af-4740-4eae-8367-6d84f800e763")
+	)
+	(junction
+		(at 572.77 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e45f782e-37cb-4c14-a8de-6bbda0ad9a92")
+	)
+	(junction
+		(at 447.04 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5c96214-e501-4d7b-9a15-2a071d0a6c9a")
+	)
+	(junction
+		(at 447.04 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e995d97e-1131-4883-b8da-5ab562cff340")
+	)
+	(junction
+		(at 654.05 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eac5eec0-7bd6-4b0b-a72e-bc24e46aa822")
+	)
+	(junction
+		(at 403.86 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb5ccf18-b74c-4cfb-b573-0fa52d0a26a1")
+	)
+	(junction
+		(at 403.86 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecb061c6-cb97-4052-9108-c9d522578b48")
+	)
+	(junction
+		(at 482.6 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef13b649-9d7e-4b60-98e9-936d298a4958")
+	)
+	(junction
+		(at 421.64 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0843a6c-95e7-4400-b06b-379f0ba1cd83")
+	)
+	(junction
+		(at 608.33 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0a302e6-280d-42e0-b7b9-49e8f3c40eb7")
+	)
+	(junction
+		(at 608.33 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faeb265f-bcf1-4cbe-863e-108b466141d7")
+	)
+	(junction
+		(at 464.82 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb809195-0c9e-4fed-aaa9-4de8bae31d22")
+	)
+	(junction
+		(at 572.77 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fde8b9f5-b93b-4016-a7fc-af7116b48ab8")
+	)
+	(junction
+		(at 421.64 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe71cddb-46e4-4598-b0a4-e5484410a501")
+	)
+	(wire
+		(pts
+			(xy 615.95 46.99) (xy 628.65 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00107779-3a61-4aa5-b1cb-681da7e81ede")
+	)
+	(wire
+		(pts
+			(xy 454.66 182.88) (xy 457.2 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ad4166-aa70-4ce8-bd54-20b53cc4a4ee")
+	)
+	(wire
+		(pts
+			(xy 654.05 39.37) (xy 671.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0490ad5a-3541-4da8-8549-1ceb571df1c7")
+	)
+	(wire
+		(pts
+			(xy 421.64 149.86) (xy 447.04 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a83ce4-f1e4-4677-9a40-022bc785e062")
+	)
+	(wire
+		(pts
+			(xy 443.23 233.68) (xy 443.23 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f2424b-8bc0-4198-b28e-2f4e5aa05b7a")
+	)
+	(wire
+		(pts
+			(xy 454.66 87.63) (xy 457.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0517612d-801f-47a4-8aa0-ae4f7fd6ae00")
+	)
+	(wire
+		(pts
+			(xy 598.17 46.99) (xy 600.71 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3fa095-32fc-4773-9125-5de3c43af428")
+	)
+	(wire
+		(pts
+			(xy 464.82 95.25) (xy 482.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c35c834-6152-4628-84c5-fe1f6ab3d429")
+	)
+	(wire
+		(pts
+			(xy 636.27 54.61) (xy 654.05 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d357596-d7e2-4b7a-bcb8-7469df62800d")
+	)
+	(wire
+		(pts
+			(xy 48.26 69.85) (xy 74.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4f1cf6-92a7-4734-aaf8-805a300a787d")
+	)
+	(wire
+		(pts
+			(xy 386.08 134.62) (xy 403.86 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ead9c59-859a-440b-8d0a-b1c8fa8957d8")
+	)
+	(wire
+		(pts
+			(xy 355.6 46.99) (xy 378.46 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119fd475-445d-4962-b086-6182a3580898")
+	)
+	(wire
+		(pts
+			(xy 679.45 46.99) (xy 679.45 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ab018a-a807-478d-bf32-446d56d48e38")
+	)
+	(wire
+		(pts
+			(xy 464.82 190.5) (xy 482.6 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12069881-730b-4466-b53a-f0f8442f9321")
+	)
+	(wire
+		(pts
+			(xy 572.77 39.37) (xy 590.55 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "121b4d8a-463c-4768-928d-e221fbb8dddb")
+	)
+	(wire
+		(pts
+			(xy 608.33 149.86) (xy 636.27 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b10552-6b14-4e17-987a-1960af6d35bd")
+	)
+	(wire
+		(pts
+			(xy 403.86 175.26) (xy 421.64 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180b9674-37a8-4bb7-a12f-0c14e1b7be98")
+	)
+	(wire
+		(pts
+			(xy 447.04 80.01) (xy 464.82 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180ed2b5-6981-4533-8ccc-86219e54d33a")
+	)
+	(wire
+		(pts
+			(xy 447.04 190.5) (xy 464.82 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185003cb-1b90-43b2-819a-3c36b2ea8599")
+	)
+	(wire
+		(pts
+			(xy 590.55 39.37) (xy 608.33 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f3ef91-d473-465e-adb5-20c6ce6b287c")
+	)
+	(wire
+		(pts
+			(xy 516.89 142.24) (xy 519.43 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1130ac-b49d-4c4c-b038-d4a608428804")
+	)
+	(wire
+		(pts
+			(xy 386.08 175.26) (xy 403.86 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac1cfc7-6635-408d-b986-e79e92dd1f94")
+	)
+	(wire
+		(pts
+			(xy 615.95 142.24) (xy 628.65 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac42272-a95c-4d3c-87dc-445b9dc0b555")
+	)
+	(wire
+		(pts
+			(xy 373.38 151.13) (xy 373.38 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7e1db8-1903-498c-aade-0224edde5e6a")
+	)
+	(wire
+		(pts
+			(xy 643.89 142.24) (xy 646.43 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc4787c-4693-4e9e-9d04-859a73661acc")
+	)
+	(wire
+		(pts
+			(xy 454.66 46.99) (xy 457.2 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec957e9-4b7c-4221-88a5-cce1a37c6711")
+	)
+	(wire
+		(pts
+			(xy 608.33 134.62) (xy 636.27 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f21870f-7438-4e7a-bc6c-10c6abaa20a2")
+	)
+	(wire
+		(pts
+			(xy 490.22 46.99) (xy 501.65 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff86015-340d-4c5e-bed5-f808dbfc9f7e")
+	)
+	(wire
+		(pts
+			(xy 598.17 142.24) (xy 600.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d906ac-d3a9-4805-bea2-6b0c5b0d3825")
+	)
+	(wire
+		(pts
+			(xy 572.77 149.86) (xy 590.55 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e5e905-a009-4dc7-9b40-8165e9e02ccb")
+	)
+	(wire
+		(pts
+			(xy 482.6 54.61) (xy 509.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "249b831e-4e07-4cb3-823c-0393563e0e7d")
+	)
+	(wire
+		(pts
+			(xy 355.6 142.24) (xy 378.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2611fb65-559b-4571-b89e-7eadc98dce50")
+	)
+	(wire
+		(pts
+			(xy 403.86 190.5) (xy 421.64 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29cb205b-c61d-430d-8ab1-a35b5f92548a")
+	)
+	(wire
+		(pts
+			(xy 472.44 46.99) (xy 474.98 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a19f255-bae7-4f61-8c55-2a86583207e9")
+	)
+	(wire
+		(pts
+			(xy 572.77 54.61) (xy 590.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da4e9da-f590-4559-bffa-0632759709f9")
+	)
+	(wire
+		(pts
+			(xy 544.83 149.86) (xy 572.77 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e292ef1-721e-4f6d-b077-c118e90918a2")
+	)
+	(wire
+		(pts
+			(xy 403.86 149.86) (xy 421.64 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ecbb48a-f88b-4931-8e72-a6fd41115ffa")
+	)
+	(wire
+		(pts
+			(xy 373.38 134.62) (xy 386.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311d5af0-b62b-48f3-a33f-e55fd8bc89e3")
+	)
+	(wire
+		(pts
+			(xy 464.82 39.37) (xy 482.6 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3274a615-9196-4901-96c7-e3263a75c667")
+	)
+	(wire
+		(pts
+			(xy 48.26 72.39) (xy 53.34 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "334b856e-3b8d-410b-86bd-c4f19aff5f23")
+	)
+	(wire
+		(pts
+			(xy 48.26 67.31) (xy 60.96 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3399dd1a-e0ce-46d6-bbe8-ce26d23fb82a")
+	)
+	(wire
+		(pts
+			(xy 359.41 160.02) (xy 359.41 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a77b71-6960-48ef-9d7a-1ebba9104274")
+	)
+	(wire
+		(pts
+			(xy 421.64 190.5) (xy 447.04 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d5f88d-6407-46d0-ae37-ed88a3915e74")
+	)
+	(wire
+		(pts
+			(xy 393.7 46.99) (xy 396.24 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d809ea-daba-4b65-ae46-e9afb6f06a14")
+	)
+	(wire
+		(pts
+			(xy 490.22 87.63) (xy 500.38 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bafb14-7440-442a-beaf-77f1304a2642")
+	)
+	(wire
+		(pts
+			(xy 411.48 241.3) (xy 443.23 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3767c318-f9b2-4683-bc70-caac0b8a1df2")
+	)
+	(wire
+		(pts
+			(xy 359.41 182.88) (xy 378.46 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388cd012-7e37-4086-b8ee-e19c2e3a82b4")
+	)
+	(wire
+		(pts
+			(xy 654.05 54.61) (xy 671.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3896fd4e-bb14-4436-afbe-91de276ffcaf")
+	)
+	(wire
+		(pts
+			(xy 373.38 54.61) (xy 386.08 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3985df12-8d21-4818-acd7-0629b7d93567")
+	)
+	(wire
+		(pts
+			(xy 359.41 87.63) (xy 378.46 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a89f74d-8a8f-4c30-bc0d-ced266e74f38")
+	)
+	(wire
+		(pts
+			(xy 411.48 87.63) (xy 414.02 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff01d6a-9358-4b53-9d39-2d72dd0cf8a0")
+	)
+	(wire
+		(pts
+			(xy 590.55 54.61) (xy 608.33 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4344444e-7cbc-419b-8f68-c7813997d17b")
+	)
+	(wire
+		(pts
+			(xy 464.82 175.26) (xy 482.6 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c51a28-af7e-4cb1-8ab4-c2bedcb30d37")
+	)
+	(wire
+		(pts
+			(xy 572.77 134.62) (xy 590.55 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497c693d-0403-4d13-ab54-e9d120e7ae32")
+	)
+	(wire
+		(pts
+			(xy 679.45 142.24) (xy 679.45 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a4c7aee-c303-48f7-ac5b-248ef6736b94")
+	)
+	(wire
+		(pts
+			(xy 403.86 248.92) (xy 443.23 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb0f84e-79e4-42c1-ab06-0d74d61ef59a")
+	)
+	(wire
+		(pts
+			(xy 490.22 182.88) (xy 501.65 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d461415-4b03-40c8-a01e-2919d6ce329f")
+	)
+	(wire
+		(pts
+			(xy 516.89 46.99) (xy 519.43 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "507dde1a-4ce2-4f99-91e2-9c0379cb218f")
+	)
+	(wire
+		(pts
+			(xy 403.86 95.25) (xy 421.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55922391-33eb-438a-a054-942abcd82c7c")
+	)
+	(wire
+		(pts
+			(xy 527.05 149.86) (xy 544.83 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56fbe029-d6e8-420d-884b-7ee308ba6cc2")
+	)
+	(wire
+		(pts
+			(xy 386.08 149.86) (xy 403.86 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5841c5f0-a2a5-4cea-b62b-a7b15fb3ac31")
+	)
+	(wire
+		(pts
+			(xy 411.48 182.88) (xy 414.02 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8ff444-b50f-45f5-ba8f-c59170df4eff")
+	)
+	(wire
+		(pts
+			(xy 429.26 46.99) (xy 439.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b48acda-2f38-4400-bec3-b9d3ece2595a")
+	)
+	(wire
+		(pts
+			(xy 527.05 134.62) (xy 544.83 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5baae293-7019-45b2-8083-4366233bcfdd")
+	)
+	(wire
+		(pts
+			(xy 654.05 149.86) (xy 671.83 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc60048-56de-42f3-92f4-3e36cff7507e")
+	)
+	(wire
+		(pts
+			(xy 429.26 87.63) (xy 439.42 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2be3e7-5978-4720-b6dd-5d6aceae9942")
+	)
+	(wire
+		(pts
+			(xy 580.39 46.99) (xy 582.93 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b3c74d-ae83-41aa-aa02-f3359081ba5e")
+	)
+	(wire
+		(pts
+			(xy 534.67 142.24) (xy 537.21 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6429264c-17ef-44ca-9bab-58dba52e95a8")
+	)
+	(wire
+		(pts
+			(xy 509.27 39.37) (xy 527.05 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ee8940-1008-4af4-bd91-a6ee84061fcc")
+	)
+	(wire
+		(pts
+			(xy 355.6 125.73) (xy 355.6 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65677076-9767-4e2e-a6e8-9eb014df5c3f")
+	)
+	(wire
+		(pts
+			(xy 544.83 39.37) (xy 572.77 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b89f0c-8720-4146-9cf8-e4308973f673")
+	)
+	(wire
+		(pts
+			(xy 501.65 224.79) (xy 361.95 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b879013-b4cc-4445-9c1a-f4b1816f5f31")
+	)
+	(wire
+		(pts
+			(xy 472.44 142.24) (xy 474.98 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3b0ddf-9040-4f2b-8761-744d723f54fc")
+	)
+	(wire
+		(pts
+			(xy 403.86 80.01) (xy 421.64 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd45eb9-7b85-453a-8725-d6f14475dfe6")
+	)
+	(wire
+		(pts
+			(xy 386.08 39.37) (xy 403.86 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e186854-9345-46da-a83b-8be7534b81ef")
+	)
+	(wire
+		(pts
+			(xy 67.31 67.31) (xy 60.96 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1f12c0-a955-4546-9597-d7793be8bde3")
+	)
+	(wire
+		(pts
+			(xy 403.86 134.62) (xy 421.64 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f20e9bb-2b0e-49ae-a4e9-b7f55ad713a4")
+	)
+	(wire
+		(pts
+			(xy 500.38 87.63) (xy 500.38 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72415cea-b032-444e-bd40-9bd60af5d547")
+	)
+	(wire
+		(pts
+			(xy 373.38 175.26) (xy 386.08 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7473e1ec-939f-4a1a-943b-e785f3421cec")
+	)
+	(wire
+		(pts
+			(xy 509.27 149.86) (xy 527.05 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771b4af7-d3ba-458a-9507-fde4f07522ae")
+	)
+	(wire
+		(pts
+			(xy 654.05 134.62) (xy 671.83 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7774fe2b-e5d5-485c-8880-5e411caba4f5")
+	)
+	(wire
+		(pts
+			(xy 386.08 248.92) (xy 403.86 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aacf0fe-1c5f-4d89-bf52-ae1df370e6a7")
+	)
+	(wire
+		(pts
+			(xy 490.22 142.24) (xy 501.65 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7feabf25-8d39-4ce2-9ddc-6b36ed381835")
+	)
+	(wire
+		(pts
+			(xy 509.27 134.62) (xy 527.05 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fffcc3e-f848-4de1-88c9-7f8fce471886")
+	)
+	(wire
+		(pts
+			(xy 386.08 80.01) (xy 403.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80764220-536b-4a2d-ad67-e27df67bf71f")
+	)
+	(wire
+		(pts
+			(xy 373.38 55.88) (xy 373.38 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813371b9-4894-477c-95d3-eda67c973f8f")
+	)
+	(wire
+		(pts
+			(xy 403.86 233.68) (xy 443.23 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84aa268f-0534-4440-a521-1406d3f00b62")
+	)
+	(wire
+		(pts
+			(xy 411.48 46.99) (xy 414.02 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857b3b9a-d10d-4aff-a9db-0dff3c9436d4")
+	)
+	(wire
+		(pts
+			(xy 608.33 54.61) (xy 636.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a4df2c-91b5-49c5-b557-682eb98e160f")
+	)
+	(wire
+		(pts
+			(xy 482.6 134.62) (xy 509.27 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0b09eb-18e6-4819-adbb-2f3e56c61bf9")
+	)
+	(wire
+		(pts
+			(xy 421.64 54.61) (xy 447.04 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bdf4a24-44de-422f-94b7-e5347f2e91bd")
+	)
+	(wire
+		(pts
+			(xy 386.08 54.61) (xy 403.86 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4d2466-e28b-4e7e-ac28-305f031d0dd4")
+	)
+	(wire
+		(pts
+			(xy 590.55 134.62) (xy 608.33 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbe0e96-067e-42d0-89a6-2cb2a78f0373")
+	)
+	(wire
+		(pts
+			(xy 447.04 54.61) (xy 464.82 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904decd5-1007-4ad2-94a2-342cdb2dea3a")
+	)
+	(wire
+		(pts
+			(xy 661.67 46.99) (xy 664.21 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904e582c-2e08-401a-961e-9b364aea5641")
+	)
+	(wire
+		(pts
+			(xy 447.04 95.25) (xy 464.82 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91afe51b-6acd-4f62-8270-1c3907d1351c")
+	)
+	(wire
+		(pts
+			(xy 464.82 149.86) (xy 482.6 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99caf2ad-4ac7-408c-821f-346c18ad50f6")
+	)
+	(wire
+		(pts
+			(xy 386.08 95.25) (xy 403.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a077346-1e89-4f55-aec4-ad655cb1c5d6")
+	)
+	(wire
+		(pts
+			(xy 500.38 125.73) (xy 355.6 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf897e4-d86f-4aa8-8824-fafa8d5823fd")
+	)
+	(wire
+		(pts
+			(xy 447.04 39.37) (xy 464.82 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfdaa66-7826-4b2b-b859-da9146691475")
+	)
+	(wire
+		(pts
+			(xy 53.34 72.39) (xy 60.96 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c1eec22-ec26-43cc-b8e0-4fd461fcad25")
+	)
+	(wire
+		(pts
+			(xy 527.05 39.37) (xy 544.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9db8d02c-1e76-4330-8239-881b7c4237c9")
+	)
+	(wire
+		(pts
+			(xy 447.04 175.26) (xy 464.82 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe89de0-2c00-4c4e-88a9-5d9662e64bec")
+	)
+	(wire
+		(pts
+			(xy 679.45 160.02) (xy 359.41 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ec2aca-f9d1-45dc-966f-2c7dc3bd8885")
+	)
+	(wire
+		(pts
+			(xy 472.44 87.63) (xy 474.98 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46b0fb5-7f45-4408-b1b8-180f8ff4e66c")
+	)
+	(wire
+		(pts
+			(xy 361.95 241.3) (xy 378.46 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85134a1-7566-4303-80f6-b192bbea587c")
+	)
+	(wire
+		(pts
+			(xy 411.48 142.24) (xy 414.02 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac472451-3d04-46ae-827a-e1b748a5a127")
+	)
+	(wire
+		(pts
+			(xy 361.95 224.79) (xy 361.95 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb3be34-b262-4dec-995c-307985b534d7")
+	)
+	(wire
+		(pts
+			(xy 636.27 134.62) (xy 654.05 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad314ebb-c69a-4182-be2c-b5f38e2fd107")
+	)
+	(wire
+		(pts
+			(xy 472.44 182.88) (xy 474.98 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4d8519-b3b0-4e0c-8a46-c307adbb316d")
+	)
+	(wire
+		(pts
+			(xy 386.08 190.5) (xy 403.86 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae13cc7f-2d93-48f7-bf28-facdadcb575c")
+	)
+	(wire
+		(pts
+			(xy 643.89 46.99) (xy 646.43 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed55332-354e-409e-9e24-5401b1ea08fe")
+	)
+	(wire
+		(pts
+			(xy 373.38 233.68) (xy 386.08 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aefd4db2-478b-42a7-af9d-baad9a9e4f7a")
+	)
+	(wire
+		(pts
+			(xy 386.08 233.68) (xy 403.86 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af7b26fb-74ce-404c-a37b-7689dc48a546")
+	)
+	(wire
+		(pts
+			(xy 552.45 46.99) (xy 565.15 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1416817-e132-4952-8613-3a7e6d1e44ae")
+	)
+	(wire
+		(pts
+			(xy 373.38 80.01) (xy 386.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1584050-cb11-4ec5-b67d-84c20df5e21e")
+	)
+	(wire
+		(pts
+			(xy 679.45 64.77) (xy 359.41 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1cc6a6d-9c3a-4521-b8e8-7c6462467bd5")
+	)
+	(wire
+		(pts
+			(xy 464.82 54.61) (xy 482.6 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b41aaa8e-cc9e-4f6f-bd4b-1952984681db")
+	)
+	(wire
+		(pts
+			(xy 447.04 134.62) (xy 464.82 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a25d4a-f5cd-4b26-b06c-15c917a0b543")
+	)
+	(wire
+		(pts
+			(xy 393.7 87.63) (xy 396.24 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b67ed1-9231-4a88-8379-a007dfd5dda6")
+	)
+	(wire
+		(pts
+			(xy 67.31 60.96) (xy 67.31 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ca90c6-9586-41e1-b488-f64eea976b2a")
+	)
+	(wire
+		(pts
+			(xy 544.83 134.62) (xy 572.77 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88155c1-30b4-4109-ac9f-45831f37b50f")
+	)
+	(wire
+		(pts
+			(xy 393.7 142.24) (xy 396.24 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad9ecc6-18ac-44d2-87cb-0e625f5611ab")
+	)
+	(wire
+		(pts
+			(xy 534.67 46.99) (xy 537.21 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bede4543-510b-4737-8c0b-729d7e7cd348")
+	)
+	(wire
+		(pts
+			(xy 527.05 54.61) (xy 544.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee26f2f-bfc9-40b1-b6f9-b4c2e7664490")
+	)
+	(wire
+		(pts
+			(xy 552.45 142.24) (xy 565.15 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd8d3b5-c9f7-4df2-99b5-8e316401ffef")
+	)
+	(wire
+		(pts
+			(xy 608.33 39.37) (xy 636.27 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1874c85-5c47-4e73-b604-404ce98e69ff")
+	)
+	(wire
+		(pts
+			(xy 421.64 39.37) (xy 447.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e7392d-8fb9-4acf-b93d-3ed3facfc81d")
+	)
+	(wire
+		(pts
+			(xy 636.27 149.86) (xy 654.05 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c39c40ed-ef93-4a54-a68f-203488e36cf5")
+	)
+	(wire
+		(pts
+			(xy 421.64 175.26) (xy 447.04 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41be212-4059-41ff-8983-2b58d5a7a326")
+	)
+	(wire
+		(pts
+			(xy 447.04 149.86) (xy 464.82 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6cf6b7c-a127-479f-838a-2b10a9eae69f")
+	)
+	(wire
+		(pts
+			(xy 544.83 54.61) (xy 572.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a6370c-fdf7-4c3c-bc72-5681ab062e08")
+	)
+	(wire
+		(pts
+			(xy 421.64 95.25) (xy 447.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a42f7c-4d50-4baf-b7c8-3c535d6b4fb7")
+	)
+	(wire
+		(pts
+			(xy 464.82 134.62) (xy 482.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d44223-839c-4bef-a262-7f08e9681efe")
+	)
+	(wire
+		(pts
+			(xy 373.38 248.92) (xy 373.38 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb72bbb6-3410-45fa-959d-45324216f1c3")
+	)
+	(wire
+		(pts
+			(xy 373.38 191.77) (xy 373.38 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbc73828-8ff1-4388-98a7-2d4aa0fdff39")
+	)
+	(wire
+		(pts
+			(xy 403.86 54.61) (xy 421.64 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfba4f57-476f-4a9c-840f-6d26f2eea5a8")
+	)
+	(wire
+		(pts
+			(xy 464.82 80.01) (xy 482.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0fcb038-5e96-42f8-acd6-ffc66759b88a")
+	)
+	(wire
+		(pts
+			(xy 482.6 39.37) (xy 509.27 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10158d5-33ac-45a7-a93b-08bf501efdd4")
+	)
+	(wire
+		(pts
+			(xy 373.38 248.92) (xy 386.08 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22e8d9a-0c32-4511-8867-a3e8bb65b8f3")
+	)
+	(wire
+		(pts
+			(xy 403.86 39.37) (xy 421.64 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39bfe51-e133-408d-b1b1-016a06038a60")
+	)
+	(wire
+		(pts
+			(xy 106.68 67.31) (xy 106.68 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7298942-b393-4b70-a765-a17fb0c0ab5d")
+	)
+	(wire
+		(pts
+			(xy 501.65 182.88) (xy 501.65 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d843d824-a553-49fc-82b3-555737bc1e58")
+	)
+	(wire
+		(pts
+			(xy 580.39 142.24) (xy 582.93 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a93b8c-d339-487c-82f9-0934009aac5b")
+	)
+	(wire
+		(pts
+			(xy 509.27 54.61) (xy 527.05 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e074fc14-88dc-4ae3-92c9-eb9e5e2c9e9b")
+	)
+	(wire
+		(pts
+			(xy 661.67 142.24) (xy 664.21 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18da3cf-25cc-4d25-8ff6-0e7172be2ac6")
+	)
+	(wire
+		(pts
+			(xy 636.27 39.37) (xy 654.05 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e20886c2-7a7d-424f-847b-8a9ddb0ca685")
+	)
+	(wire
+		(pts
+			(xy 373.38 95.25) (xy 386.08 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e20a7ab1-f9ae-4e91-ae98-989ad58f5107")
+	)
+	(wire
+		(pts
+			(xy 443.23 248.92) (xy 443.23 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a355a8-d07e-4344-81ee-710632d15cd3")
+	)
+	(wire
+		(pts
+			(xy 393.7 182.88) (xy 396.24 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b57393-4b97-4d62-aa56-811416f11e73")
+	)
+	(wire
+		(pts
+			(xy 373.38 190.5) (xy 386.08 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4686e64-281a-476b-b870-db39919ee662")
+	)
+	(wire
+		(pts
+			(xy 393.7 241.3) (xy 396.24 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c3f29e-c2bf-46a8-aab1-a1aede1f66a8")
+	)
+	(wire
+		(pts
+			(xy 482.6 149.86) (xy 509.27 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71dbbc9-a825-40d4-b509-aab5aabae721")
+	)
+	(wire
+		(pts
+			(xy 373.38 96.52) (xy 373.38 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea60b7f8-1f98-4841-9ee4-68240df3a074")
+	)
+	(wire
+		(pts
+			(xy 421.64 134.62) (xy 447.04 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec54af4e-ce40-4fb9-9151-29f042340d7f")
+	)
+	(wire
+		(pts
+			(xy 421.64 80.01) (xy 447.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd6b504-446b-4828-bf4c-c4104d815e51")
+	)
+	(wire
+		(pts
+			(xy 429.26 142.24) (xy 439.42 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb7ced8-64cc-4c5c-aacd-30144c4d1e47")
+	)
+	(wire
+		(pts
+			(xy 429.26 182.88) (xy 439.42 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a0ccc2-c7ed-44c3-a143-970da7779b2b")
+	)
+	(wire
+		(pts
+			(xy 373.38 149.86) (xy 386.08 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b91ae3-f28c-4132-b8af-1ba5623d128d")
+	)
+	(wire
+		(pts
+			(xy 373.38 39.37) (xy 386.08 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f478aa66-8834-41d8-b446-257039f902a8")
+	)
+	(wire
+		(pts
+			(xy 359.41 64.77) (xy 359.41 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5755af1-be19-41fc-96c8-f82b6a95cc76")
+	)
+	(wire
+		(pts
+			(xy 590.55 149.86) (xy 608.33 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb13d51-aee2-4905-af44-74f91e915058")
+	)
+	(wire
+		(pts
+			(xy 454.66 142.24) (xy 457.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff058811-d98f-4ad2-8707-b1971d750f41")
+	)
+	(rectangle
+		(start 328.93 212.09)
+		(end 689.61 299.72)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 52e7957d-64b0-48b5-bd24-dca4edbe81f0)
+	)
+	(rectangle
+		(start 328.93 115.57)
+		(end 689.61 203.2)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8aa1b565-d101-4def-8471-c9244f4f80ea)
+	)
+	(rectangle
+		(start 328.93 20.32)
+		(end 689.61 107.95)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c7e24d96-dfd3-46f6-9bc8-a3972557ee32)
+	)
+	(rectangle
+		(start 19.05 16.51)
+		(end 306.07 93.98)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f5668ac7-08ec-40c4-bd3d-a72933e43d29)
+	)
+	(text "LED BANK 1 - 7 SEGMENT DISPLAY A\n"
+		(exclude_from_sim no)
+		(at 334.01 26.67 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "4deab998-52d9-48ba-aef6-54cf7bda554f")
+	)
+	(text "LED LINK CONNECTOR"
+		(exclude_from_sim no)
+		(at 26.67 27.94 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "8801f6f4-fcc6-45e6-af30-bf8bc1b41437")
+	)
+	(text "LED BANK 3 - Separator\n\n"
+		(exclude_from_sim no)
+		(at 334.01 224.79 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ab34e9b-a1a8-4eaf-a12c-13b0c66a7c2d")
+	)
+	(text "LED BANK 2 - 7 SEGMENT DISPLAY B\n"
+		(exclude_from_sim no)
+		(at 334.01 121.92 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "f91e1636-2040-4bf2-9507-4f75a5332400")
+	)
+	(label "LED_LINK_IN_5V"
+		(at 355.6 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0231c2cd-8e34-413f-8ea4-dc83a0a567de")
+	)
+	(label "LED_LINK_IN_5V"
+		(at 74.93 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fc80aba-987d-4779-bbc3-5881d165655c")
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 403.86 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "026e799d-82ec-4d03-8112-9c3990ad1be1")
+		(property "Reference" "D23"
+			(at 408.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 403.86 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 403.86 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 403.86 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06cd5d41-637f-4973-90dd-b4941336bbe8")
+		)
+		(pin "2"
+			(uuid "9d72391b-bf2c-47cf-9fd2-fb465eb694c8")
+		)
+		(pin "3"
+			(uuid "3d081109-95cd-47fb-936c-5eb79d3e2898")
+		)
+		(pin "4"
+			(uuid "8caa14e6-a086-4497-844d-3b66bdca8583")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 373.38 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05eb5ab6-6dd0-49ba-8c19-264317be0667")
+		(property "Reference" "#PWR09"
+			(at 373.38 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 373.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5da1d3c-e3a2-440f-ae77-a39b8c749bd4")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d729b68-d5b1-4298-a4b9-cfb84a3d67df")
+		(property "Reference" "#PWR014"
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13a5d819-6790-4942-b939-ea5de95a0192")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 447.04 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f0c3b20-090e-4706-8ca3-1f148ae0eccd")
+		(property "Reference" "D19"
+			(at 452.12 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 447.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 447.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 447.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 447.04 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1980b3c-9a77-4d61-8b92-0a41c54b3702")
+		)
+		(pin "2"
+			(uuid "ead5afd8-75fe-4d7c-a5d4-ff6257634c4a")
+		)
+		(pin "3"
+			(uuid "a1e467fd-74fe-435c-8135-98fedb3a587f")
+		)
+		(pin "4"
+			(uuid "3ef10b9f-9700-4b21-a1b5-910bfbd57f38")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 365.76 449.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f9952b4-5e3d-4efb-b671-70efb566e2a4")
+		(property "Reference" "H2"
+			(at 368.3 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 368.3 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 365.76 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 464.82 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fb6d171-ef38-41c4-9cae-131e378fb674")
+		(property "Reference" "D41"
+			(at 469.9 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 464.82 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 464.82 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 464.82 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 464.82 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18f911df-5a27-4392-abed-7f221d18bde0")
+		)
+		(pin "2"
+			(uuid "1a07cdb7-7748-4b12-9ba0-5283651a29d0")
+		)
+		(pin "3"
+			(uuid "8754e8a7-beca-4e77-a0a5-bf0296f15ac4")
+		)
+		(pin "4"
+			(uuid "cac1e680-97a3-4f8e-8ade-6deed63f6894")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 464.82 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10275c6d-3da8-4947-a177-270121c14a55")
+		(property "Reference" "D5"
+			(at 469.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 464.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 464.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 464.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 464.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76e92876-3e1b-4dc4-ac0d-a970803f443d")
+		)
+		(pin "2"
+			(uuid "5626145e-3eec-4854-92d0-457c5ee846e5")
+		)
+		(pin "3"
+			(uuid "43115477-7639-4078-86e6-9a76677a2bfd")
+		)
+		(pin "4"
+			(uuid "99e71550-bb4d-4c88-9aef-072bba57e1cc")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 447.04 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10c2c70b-6524-4dd4-a3f1-2e36d405f340")
+		(property "Reference" "D4"
+			(at 452.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 447.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 447.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 447.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 447.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34cdb938-f4f6-4c8e-9e69-d0fcb7782ed7")
+		)
+		(pin "2"
+			(uuid "3f514a88-7f9e-461b-b5ea-e8d325c929f1")
+		)
+		(pin "3"
+			(uuid "7a2814b1-a90b-4bf7-8d3c-dd7c785abcc5")
+		)
+		(pin "4"
+			(uuid "290b7a20-ddcc-434a-99dc-757738e4cdce")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 421.64 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "172d321e-3efe-43cf-93a1-556ba993b570")
+		(property "Reference" "D24"
+			(at 426.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 421.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 421.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 421.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 421.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96118606-e609-488d-860c-2e33980080a1")
+		)
+		(pin "2"
+			(uuid "9f44dcbd-1106-4596-9f53-0de081069841")
+		)
+		(pin "3"
+			(uuid "c72c064d-1f2c-4842-b0fa-068c9676bbfe")
+		)
+		(pin "4"
+			(uuid "89b078f9-3fcb-4812-9396-e7b9bb75a669")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 482.6 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b908d14-588c-47f3-985a-96d2644ec3b9")
+		(property "Reference" "D21"
+			(at 487.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 482.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 482.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 482.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 482.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "981bfa55-c218-4a41-b968-2e95ae6564ff")
+		)
+		(pin "2"
+			(uuid "cb5c33e8-a010-42c7-8ade-b8b9c31cbdb0")
+		)
+		(pin "3"
+			(uuid "b452f852-0b2c-43db-a810-0f2977c696f0")
+		)
+		(pin "4"
+			(uuid "2c86094e-e675-48f1-af93-1f6a30352d56")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 393.7 457.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d212116-ae4a-4fa8-8fd6-526d6747a98c")
+		(property "Reference" "FID2"
+			(at 396.24 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 396.24 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 393.7 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 393.7 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 393.7 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 671.83 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1edf7281-f54b-46ef-87db-445f670c82b0")
+		(property "Reference" "D36"
+			(at 676.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 671.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 671.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 671.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 671.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "357f47a2-4d53-4c03-bf23-0c09af1bedea")
+		)
+		(pin "2"
+			(uuid "30e9acc8-8970-4597-8e64-72e3a830cce4")
+		)
+		(pin "3"
+			(uuid "c6f7d508-4661-4388-b946-976da0fa649a")
+		)
+		(pin "4"
+			(uuid "aba8f5b3-04bd-426a-9498-7f3df1ffb3e5")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 386.08 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21226f18-b5ac-46ff-9fb2-0eab129a8e6a")
+		(property "Reference" "D1"
+			(at 391.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 386.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 386.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 386.08 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df709d26-f3bf-4660-94e0-5ca1b765f878")
+		)
+		(pin "2"
+			(uuid "57bc9eb1-af28-4b0b-b8ad-a4117458dfc4")
+		)
+		(pin "3"
+			(uuid "7c301ea2-1bd1-42ff-b3f2-567f43062dfa")
+		)
+		(pin "4"
+			(uuid "bf5281fa-e03a-4763-8225-14996797a297")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 654.05 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21ff1350-feb0-4d8a-b420-b5ac855d5fb6")
+		(property "Reference" "D35"
+			(at 659.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 654.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 654.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 654.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 654.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2892aecb-7ac3-4e19-8853-7339c331158f")
+		)
+		(pin "2"
+			(uuid "67cb741c-dfab-454a-b402-6439fedb5fa6")
+		)
+		(pin "3"
+			(uuid "0e72569a-c49a-4a4e-9012-38625f87815b")
+		)
+		(pin "4"
+			(uuid "cf884e36-6699-49b0-b087-a4c4140c44de")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 386.08 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2855f92d-4b45-42d9-9f1a-42c36edfa9aa")
+		(property "Reference" "D43"
+			(at 391.16 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 386.08 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 386.08 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 386.08 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cd7ec6e-3c7c-4559-8346-3b153a4ca7d9")
+		)
+		(pin "2"
+			(uuid "bd8b72b5-3605-4215-9386-2785d2e7cc51")
+		)
+		(pin "3"
+			(uuid "02071a7f-a3a8-4e85-8d50-fea750ffb65c")
+		)
+		(pin "4"
+			(uuid "88802ead-3258-40fa-9ae6-7cde781a90df")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29dcc857-0066-4475-b9db-10823f08a25b")
+		(property "Reference" "#PWR011"
+			(at 106.68 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5f06d62-537c-4110-84b9-b2cfc51c65d8")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 464.82 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e05682a-7646-4692-b309-c7d42cb124a3")
+		(property "Reference" "D26"
+			(at 469.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 464.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 464.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 464.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 464.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f18a909-0dd4-4f6c-b8cc-c452d5a3a89e")
+		)
+		(pin "2"
+			(uuid "c3e43786-58ee-4c8f-a36f-552fcec98fca")
+		)
+		(pin "3"
+			(uuid "2de6d460-e234-48d4-90b7-aac435402e52")
+		)
+		(pin "4"
+			(uuid "c784c204-563b-45cf-9a15-0ebb92527e80")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 60.96 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32106475-8fda-4df9-820c-0ce86c061ed9")
+		(property "Reference" "#FLG02"
+			(at 60.96 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65958af0-2935-43a3-a0f6-3e16fcf564b8")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 373.38 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32afde8b-08fe-4582-a0b8-42765f104ebc")
+		(property "Reference" "#PWR02"
+			(at 373.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 373.38 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b00fe9f5-597c-423e-8925-57888a906e3d")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 608.33 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "378af562-f785-49fa-98fd-50b5ca59599b")
+		(property "Reference" "D33"
+			(at 613.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 608.33 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 608.33 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 608.33 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 608.33 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b933ded-e085-4e82-836e-3e4d41b9faa5")
+		)
+		(pin "2"
+			(uuid "e73b9270-1c3a-440a-8b31-b8d1c9e7b3c6")
+		)
+		(pin "3"
+			(uuid "eb4df4a3-b86b-4d6f-b5e1-ae01de8a1a9b")
+		)
+		(pin "4"
+			(uuid "f7a591bb-12b6-487e-a72f-c45138777906")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 636.27 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "387d7711-b3d7-4054-8247-7a98aa066fc2")
+		(property "Reference" "D34"
+			(at 641.35 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 636.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 636.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 636.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 636.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e0bfb2d-37e8-42d7-89b4-3d00b6cb3929")
+		)
+		(pin "2"
+			(uuid "29310083-6619-4cba-a292-6cf5d8245cad")
+		)
+		(pin "3"
+			(uuid "71d61605-da7b-4c06-83cf-b266f202b53a")
+		)
+		(pin "4"
+			(uuid "adcefb94-fdfd-487b-8832-f373abb041c0")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 67.31 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "388b6829-aca8-47c6-bfcf-8835b39117d3")
+		(property "Reference" "#FLG01"
+			(at 67.31 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 67.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a935b14-4664-4ecd-9b4d-cf0699da31d6")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 608.33 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38bdccf5-8160-410f-a671-83efbe3e612c")
+		(property "Reference" "D12"
+			(at 613.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 608.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 608.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 608.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 608.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3abe0ceb-40ac-4267-bdf6-f308c8b32c16")
+		)
+		(pin "2"
+			(uuid "8f34e746-58da-4d00-9ed6-ca8428fac15d")
+		)
+		(pin "3"
+			(uuid "7ce19407-dc82-40a1-a18d-5c4a61da2b45")
+		)
+		(pin "4"
+			(uuid "3ca2f5c3-d249-4d52-a09d-9ad43bcb62c1")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 373.38 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bf1ca33-73a7-48af-9195-e53b38385d37")
+		(property "Reference" "#PWR07"
+			(at 373.38 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 373.38 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce22fabb-2090-4bdb-be52-1fe456992195")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 636.27 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f2eb4ec-8f24-432a-a2ab-466c016e9a44")
+		(property "Reference" "D13"
+			(at 641.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 636.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 636.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 636.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 636.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f4aef6e-ee5f-4b7e-a267-72b6d2e81a8f")
+		)
+		(pin "2"
+			(uuid "988dedd6-7376-4802-b3d8-691e146b7109")
+		)
+		(pin "3"
+			(uuid "76471437-3d55-42f9-9b7a-fcb8b4e53bd3")
+		)
+		(pin "4"
+			(uuid "d813e706-9b4f-4897-bbf9-bdd37836cf03")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 403.86 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "441c00be-fc75-41de-804e-94470bb9d81c")
+		(property "Reference" "D17"
+			(at 408.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 403.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 403.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 403.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fc340b3-e626-4bd3-b779-ebfdafd3f78a")
+		)
+		(pin "2"
+			(uuid "f17951ca-b0fb-4724-a200-80fd525bb851")
+		)
+		(pin "3"
+			(uuid "eb24f6b1-1aba-4819-b5e4-7a0cb5b192a6")
+		)
+		(pin "4"
+			(uuid "c2521d0a-69ab-4c84-bab4-16292696a741")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 482.6 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "454387f2-841f-40b3-8711-fc45b92439dd")
+		(property "Reference" "D42"
+			(at 487.68 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 482.6 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 482.6 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 482.6 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 482.6 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f488f8e5-603d-46f9-8b2d-df5714919b65")
+		)
+		(pin "2"
+			(uuid "c78edec9-aa0f-447b-b6f5-6085ae466e4e")
+		)
+		(pin "3"
+			(uuid "f3144e8d-806c-470b-b19a-b7b304822e08")
+		)
+		(pin "4"
+			(uuid "0e2c4c99-3e3f-4f66-a8d5-3fe2aa36b70c")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 373.38 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4de25363-38ce-4a98-8ba7-065fbd1e4655")
+		(property "Reference" "#PWR025"
+			(at 373.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 373.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "972be662-26f5-4dce-b1a2-e1694356a3f7")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 527.05 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53749476-aaa1-42b5-857e-7395235251fb")
+		(property "Reference" "D8"
+			(at 532.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 527.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 527.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 527.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 527.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef101fa6-a6da-41f6-ac96-ae5ef0baf5a2")
+		)
+		(pin "2"
+			(uuid "7f56fc14-e118-4470-b33f-1795c7dab3c7")
+		)
+		(pin "3"
+			(uuid "f563f9b2-1a3d-4f01-9ba4-f72a57824a83")
+		)
+		(pin "4"
+			(uuid "ad55d377-4aeb-4120-b9fb-324550ca298e")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 386.08 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54d06425-f139-4c21-bb64-e1d0c49bde95")
+		(property "Reference" "D16"
+			(at 391.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 386.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 386.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 386.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea075fa6-a62e-4368-b625-a100188157bc")
+		)
+		(pin "2"
+			(uuid "3a589b35-fa30-4cb3-a51a-a134714ba139")
+		)
+		(pin "3"
+			(uuid "bc07831b-0ee3-4d81-a7c3-8749a0d26576")
+		)
+		(pin "4"
+			(uuid "803895e8-ae53-4cc7-934d-4b5fe43881c2")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 572.77 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d0d0dfe-0f68-4fd3-8d96-df50c2a337da")
+		(property "Reference" "D10"
+			(at 577.85 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 572.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 572.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 572.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 572.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbf2bca0-fcdc-4afd-bfef-8e04acc404bc")
+		)
+		(pin "2"
+			(uuid "78569251-0d73-4d01-a2c5-40092997d1d4")
+		)
+		(pin "3"
+			(uuid "93fb7869-92b3-484d-b60e-46e365cd9d0f")
+		)
+		(pin "4"
+			(uuid "1f2158bd-f09b-492b-9002-2bc5018d4ef4")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 386.08 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6486d4c2-831f-4133-8b6f-fe0dd0bfed36")
+		(property "Reference" "D37"
+			(at 391.16 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 386.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 386.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 386.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f418354d-732d-45aa-a0dc-6322739b3d52")
+		)
+		(pin "2"
+			(uuid "a9c66bb5-719f-49e1-a037-fb031ccd8926")
+		)
+		(pin "3"
+			(uuid "0fad1f6d-a6f3-4492-bf4d-bba59692ddf9")
+		)
+		(pin "4"
+			(uuid "5cc2b333-a788-44b0-9c4f-00f8a2dc5531")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0532610371:0532610371")
+		(at 40.64 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d50cfb5-2025-40f3-97f8-372dfcaab337")
+		(property "Reference" "P1"
+			(at 36.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LINK INPUT"
+			(at 36.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+			(at 40.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
+			(at 40.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72845eb5-96ab-4b64-b5f0-6bf11126576d")
+		)
+		(pin "2"
+			(uuid "c8cb09b0-db1d-4493-8fd2-cb0b06a0dda9")
+		)
+		(pin "3"
+			(uuid "7e6861d0-4533-454e-bd00-cad4ad0fa997")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 106.68 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f457e25-886d-4e9c-b1c6-eae56a6e669c")
+		(property "Reference" "#PWR012"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 106.68 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dd420b5-fe82-4e86-b8ea-a6045429f654")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 403.86 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7703904d-be9c-457b-8a89-33f0edbecf36")
+		(property "Reference" "D38"
+			(at 408.94 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 403.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 403.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 403.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b52a6cb-a561-4f09-a3fb-2f2455066c5c")
+		)
+		(pin "2"
+			(uuid "ed0fe53b-bec1-4377-9aac-db7e56751638")
+		)
+		(pin "3"
+			(uuid "1e2449b1-c0f9-48d5-af59-ff36ac1b7ab6")
+		)
+		(pin "4"
+			(uuid "70281860-5590-40b4-b197-cbe8321893af")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 544.83 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "785184cb-1b1a-43df-abca-51f449c993cb")
+		(property "Reference" "D30"
+			(at 549.91 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 544.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 544.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 544.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 544.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "820621bb-afec-4709-bd6d-330d82a13650")
+		)
+		(pin "2"
+			(uuid "586b4f79-43f7-4b2b-8d9a-d00bacff30ec")
+		)
+		(pin "3"
+			(uuid "f85aa662-0f1a-4279-9a22-5b3d6fd49bed")
+		)
+		(pin "4"
+			(uuid "9c13913f-4f95-413f-9932-9dd48cb754e5")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 373.38 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c3458b1-0878-4bda-994a-bef427a5700d")
+		(property "Reference" "#PWR08"
+			(at 373.38 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 373.38 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79dad369-1834-4fa7-ad41-0ea7e245c195")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 106.68 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ca39385-43d8-4f47-8d7f-314626bddfc9")
+		(property "Reference" "C3"
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 107.6452 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e419acbf-c83f-4034-9489-51c71e874c47")
+		)
+		(pin "2"
+			(uuid "e3e56e38-7d9d-4954-9dea-262906028e1a")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 403.86 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e280634-9cf6-42b2-8937-7b7f5d0a0989")
+		(property "Reference" "D2"
+			(at 408.94 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 403.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 403.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 403.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17076be3-83b7-4bec-b39a-9889943ba20d")
+		)
+		(pin "2"
+			(uuid "26e0cb61-b3af-4a4a-9353-c12ad1256137")
+		)
+		(pin "3"
+			(uuid "c511594b-0750-4378-915f-5135ea4d701b")
+		)
+		(pin "4"
+			(uuid "787a5ea3-3a7c-40bb-9699-6dd265e702be")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 373.38 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "853cb45a-5c7d-4bac-9050-030bdc9c82e3")
+		(property "Reference" "#PWR03"
+			(at 373.38 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 373.38 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "418ca9f2-fc0e-44b8-a961-d2ee19bea331")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 403.86 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8590c073-b8e6-4dd4-ba65-5326d5c068e4")
+		(property "Reference" "D44"
+			(at 408.94 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 403.86 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 403.86 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 403.86 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c45a678e-b2a4-40cf-9888-4fd2d0b06426")
+		)
+		(pin "2"
+			(uuid "515314bd-b8c9-47f1-b6aa-9c5eb7aca4eb")
+		)
+		(pin "3"
+			(uuid "194d7ced-3d83-404b-a781-7ffcf60f6bac")
+		)
+		(pin "4"
+			(uuid "6bd68b87-22be-434d-ae89-2b838e39e541")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 671.83 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87b9bc21-eb47-4d4f-aae6-e0531f7638d1")
+		(property "Reference" "D15"
+			(at 676.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 671.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 671.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 671.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 671.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af9a0bc9-4b14-4038-883b-6e10210ade56")
+		)
+		(pin "2"
+			(uuid "ecc0f754-756a-49dd-ba49-3a526f363c95")
+		)
+		(pin "3"
+			(uuid "ce7e5e88-eb21-4963-b3fc-8fc39bc20af2")
+		)
+		(pin "4"
+			(uuid "b7438cca-494e-48b3-86b5-822666a5925f")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 590.55 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ab712f7-9c0a-4f9b-a2dc-b858c7e2352a")
+		(property "Reference" "D32"
+			(at 595.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 590.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 590.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 590.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 590.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74a7224d-8001-4f3b-9e80-ae99e5af28a2")
+		)
+		(pin "2"
+			(uuid "73454dc1-9dfe-4770-b0ad-82a3dcd5ed0c")
+		)
+		(pin "3"
+			(uuid "8f24e834-eb8e-40d7-9e85-a689ea186a53")
+		)
+		(pin "4"
+			(uuid "8b6f8b4b-8460-457a-ae39-7119645577ab")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 373.38 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bee570d-2147-4cb0-bd5a-fbeb33f68b20")
+		(property "Reference" "#PWR01"
+			(at 373.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 373.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c115cace-3f4d-4f61-9a06-ce9accb085fc")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 386.08 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e4c5c80-0cdb-4e76-b5d4-795ddc53c1a6")
+		(property "Reference" "D22"
+			(at 391.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 386.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 386.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 386.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed5acb49-f1cd-4c57-ad99-5ef03ec2a68e")
+		)
+		(pin "2"
+			(uuid "fff50805-518b-4a79-9d8d-5ce05a648817")
+		)
+		(pin "3"
+			(uuid "b0b942e8-69d1-4f8e-9621-fdde0f32cda9")
+		)
+		(pin "4"
+			(uuid "9ded9d11-c65a-4f12-87d5-828485e3cadd")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0532610371:0532610371")
+		(at 450.85 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8eca8872-11f1-4970-ab8c-2d8e4c366389")
+		(property "Reference" "P2"
+			(at 454.66 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LINK OUTPUT"
+			(at 454.66 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal"
+			(at 450.85 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 450.85 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 450.85 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
+			(at 450.85 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "238203ac-8904-408d-b52c-6e469b854645")
+		)
+		(pin "2"
+			(uuid "edde330a-abc8-4407-9d80-dbd3007503b3")
+		)
+		(pin "3"
+			(uuid "e5beab6e-e87b-4cde-8a0c-bd8e2942c4a9")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 590.55 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "914a24f7-c37f-45d3-aca2-7b35a2e33721")
+		(property "Reference" "D11"
+			(at 595.63 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 590.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 590.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 590.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 590.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecc37110-0c54-473a-924f-e11361544482")
+		)
+		(pin "2"
+			(uuid "f0162cbc-7cad-4fa9-86e4-bd74b26733ce")
+		)
+		(pin "3"
+			(uuid "25204896-a194-4c0d-8083-c039f8b8699f")
+		)
+		(pin "4"
+			(uuid "8cf9b37d-39b0-4d35-b72a-fcb641ae7e18")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 408.94 450.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9998a6d6-a43d-42b9-8b4c-95f8029a5bd8")
+		(property "Reference" "FID3"
+			(at 411.48 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 411.48 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 408.94 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 408.94 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 408.94 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 544.83 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ba1be90-14bc-45ea-a89d-4de53cff16ec")
+		(property "Reference" "D9"
+			(at 549.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 544.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 544.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 544.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 544.83 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ba5248d-406f-47a7-b324-bc25647d5447")
+		)
+		(pin "2"
+			(uuid "e2a792b6-3216-4e93-9173-6ee97d0f522c")
+		)
+		(pin "3"
+			(uuid "b743598f-749a-489a-8e2d-a299ffccbe7f")
+		)
+		(pin "4"
+			(uuid "2ba01c15-6c4f-4ea2-acb5-9c76098cfe09")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 421.64 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bb7cce8-2fa6-4dc1-8f29-876e78fa6451")
+		(property "Reference" "D3"
+			(at 426.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 421.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 421.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 421.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 421.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afd1f51f-a2a1-4355-aadd-1af25e0486cc")
+		)
+		(pin "2"
+			(uuid "6a5cccfb-2798-46c1-87a8-8b409d39f6c9")
+		)
+		(pin "3"
+			(uuid "72cc1cc3-d62b-4494-afae-c7628a42ec4f")
+		)
+		(pin "4"
+			(uuid "aa74dca3-4f10-4a36-9a41-7c32f1416957")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 421.64 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fd04bdb-419c-41b7-8d5e-3024b78f96e7")
+		(property "Reference" "D18"
+			(at 426.72 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 421.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 421.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 421.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 421.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69d6ac59-e608-4a7e-be35-a73604243f63")
+		)
+		(pin "2"
+			(uuid "6137b8d5-5f8a-4c4f-866a-5cc88d8d15b9")
+		)
+		(pin "3"
+			(uuid "7a3b52d0-4d54-4e96-a97e-0ff7ed3c70a1")
+		)
+		(pin "4"
+			(uuid "72e6b13a-8a21-4956-aeea-8fac9fcb43f0")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 654.05 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a67f0ec9-bc7d-4ada-99d2-5460e7f175ee")
+		(property "Reference" "D14"
+			(at 659.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 654.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 654.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 654.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 654.05 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee117b2d-9ead-4f57-b3ea-992090def6b0")
+		)
+		(pin "2"
+			(uuid "5328e786-9fb6-4fee-ab79-e80503020fb9")
+		)
+		(pin "3"
+			(uuid "b8a98313-ab59-4b8c-9a80-9ff9ed24183d")
+		)
+		(pin "4"
+			(uuid "8d1e2408-f351-4d59-9864-382a6dc17807")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 447.04 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6efa42d-5218-4ea6-bcb2-39b1a6a2e430")
+		(property "Reference" "D40"
+			(at 452.12 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 447.04 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 447.04 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 447.04 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 447.04 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea0bf3f0-5ffc-45f1-94a3-1874f9ff82f4")
+		)
+		(pin "2"
+			(uuid "c5224d0e-ee4d-44c9-a264-1a3a540a35f3")
+		)
+		(pin "3"
+			(uuid "16bfee53-42d8-4214-a9ed-13d66d9eb96c")
+		)
+		(pin "4"
+			(uuid "b0caae31-4444-447d-a464-5355070b3cb1")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 527.05 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9aae44b-fe9f-4728-930b-54d46989405f")
+		(property "Reference" "D29"
+			(at 532.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 527.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 527.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 527.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 527.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1069b1f-516a-4c2c-9a92-3d05ea5e656a")
+		)
+		(pin "2"
+			(uuid "df786350-6ffc-466e-b2c5-acfde343cd68")
+		)
+		(pin "3"
+			(uuid "92c7aeb3-39f4-4c97-b27c-a4accaf7adba")
+		)
+		(pin "4"
+			(uuid "b65fcbc0-8253-4922-b008-ee7a4b28d51b")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 421.64 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af0c16d2-4849-431f-aff3-8806af4d8998")
+		(property "Reference" "D39"
+			(at 426.72 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 421.64 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 421.64 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 421.64 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 421.64 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52c03d6b-774f-4941-b2fd-54cf6e3d8df5")
+		)
+		(pin "2"
+			(uuid "01f5dfa7-1451-4cfa-82b1-a00c5d303ae5")
+		)
+		(pin "3"
+			(uuid "6fe46639-038a-4a38-a367-9d080aba9730")
+		)
+		(pin "4"
+			(uuid "40da6b30-fae1-4d19-90b3-91e26d9cc749")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 572.77 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b18b2d46-d464-451b-9cce-6d11dd86335e")
+		(property "Reference" "D31"
+			(at 577.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 572.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 572.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 572.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 572.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ca7e4db-c985-49c7-8af5-d4b04d8a394b")
+		)
+		(pin "2"
+			(uuid "c4f88b83-6b23-40d0-8920-26a43bdffcd3")
+		)
+		(pin "3"
+			(uuid "f894e385-7d9d-4ba8-8ab5-7e3eccb73720")
+		)
+		(pin "4"
+			(uuid "3fba42d4-55bf-436b-87c0-d08f8815a40d")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 482.6 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5b9ba3e-e448-45a5-9f4f-6c0a69b23fbd")
+		(property "Reference" "D27"
+			(at 487.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 482.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 482.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 482.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 482.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad0d14a5-0cb6-4420-9bfd-f27a62566a3d")
+		)
+		(pin "2"
+			(uuid "00d8c467-599c-4515-865f-c9bc2cec6dd7")
+		)
+		(pin "3"
+			(uuid "8e985a45-bc33-4a21-bca9-60d466487803")
+		)
+		(pin "4"
+			(uuid "a0ac39e3-af18-40d0-9c1e-fb4458e80dcc")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 509.27 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9750a31-b341-4ffc-9f14-139ffdfc270b")
+		(property "Reference" "D7"
+			(at 514.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 509.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 509.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 509.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 509.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44ab59f2-af79-440a-9dc1-e87d5efb9c59")
+		)
+		(pin "2"
+			(uuid "79614f8a-796f-4439-adec-5b8d60d94b33")
+		)
+		(pin "3"
+			(uuid "0dad768f-afab-497a-a149-ecc3d28034a6")
+		)
+		(pin "4"
+			(uuid "0062d66e-e043-42b5-93ae-61803452c5d2")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 365.76 457.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bca581de-e892-405d-be6a-4645757cc537")
+		(property "Reference" "H4"
+			(at 368.3 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 368.3 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 365.76 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 365.76 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 393.7 450.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5d9f7d8-8fd9-4327-8d84-b42d6208d6c6")
+		(property "Reference" "FID1"
+			(at 396.24 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 396.24 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 393.7 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 393.7 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 393.7 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 373.38 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8e60843-5b38-40e9-94c9-fb1a213c23cf")
+		(property "Reference" "#PWR024"
+			(at 373.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 373.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ead5ba4-f665-4f6c-b83f-392ac1199544")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 509.27 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cde018ec-a2bd-4500-a48c-c7c9560822b4")
+		(property "Reference" "D28"
+			(at 514.35 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 509.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 509.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 509.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 509.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eca5a777-e45a-4867-a446-e2b36ae05422")
+		)
+		(pin "2"
+			(uuid "7f79be7a-abc4-491a-bff6-acf49e961a78")
+		)
+		(pin "3"
+			(uuid "3ad7b881-1b49-4cdd-8ae0-0dc409fa002b")
+		)
+		(pin "4"
+			(uuid "2f5a4c51-fadb-4df0-b510-877045fb79a9")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 373.38 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf317f1d-669c-4119-a073-3858ba49a7da")
+		(property "Reference" "#PWR05"
+			(at 373.38 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 373.38 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaaefd2d-44aa-4474-97f2-653fd182c1a9")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 60.96 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dabeec85-865b-41bb-91b4-8e0543294bc4")
+		(property "Reference" "#PWR06"
+			(at 60.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d42a6b0f-8b05-469c-b4fa-36948050d5c2")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 345.44 457.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcd41a89-90bc-42a5-aa7c-ce073f580042")
+		(property "Reference" "H3"
+			(at 347.98 455.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 347.98 458.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 345.44 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 345.44 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 345.44 449.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3dd988e-fa54-482c-8dba-198fe6f275ef")
+		(property "Reference" "H1"
+			(at 347.98 448.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 347.98 450.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 345.44 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 345.44 449.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 373.38 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8c5e254-a9a9-4919-b59e-3c6571858b84")
+		(property "Reference" "#PWR04"
+			(at 373.38 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 373.38 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 373.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edd66da4-a633-4fbc-a3a2-cf55ff1d2eda")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 482.6 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f404aab2-d9af-4df8-9061-5336f2ff099d")
+		(property "Reference" "D6"
+			(at 487.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 482.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 482.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 482.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 482.6 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94d0d38a-77fd-42aa-9b4c-8c475b0ce79c")
+		)
+		(pin "2"
+			(uuid "380652d2-e22e-4dcd-bb6f-8751c104746e")
+		)
+		(pin "3"
+			(uuid "02ffea29-1ba3-45d5-b3c7-b89ac3038a6f")
+		)
+		(pin "4"
+			(uuid "d984fa1e-79cf-4809-8eb3-ceadb7df71e8")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 464.82 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6b507f6-ed44-4529-a15e-b806ee6e0584")
+		(property "Reference" "D20"
+			(at 469.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 464.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 464.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 464.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 464.82 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fee912b-18e3-40db-aff7-1d7784b2245a")
+		)
+		(pin "2"
+			(uuid "f6193d3a-1821-4dfb-af44-1d7277780401")
+		)
+		(pin "3"
+			(uuid "0a9e9f4e-e30c-4152-b0c2-6d1369895512")
+		)
+		(pin "4"
+			(uuid "2867f642-45ba-4c1d-9193-524943b634b1")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812NanoMK")
+		(at 447.04 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fad2008a-64b6-450b-b8dd-02f360bbb41c")
+		(property "Reference" "D25"
+			(at 452.12 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 447.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMDnew:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 447.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 447.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 447.04 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14888dbd-7d69-4df4-aa79-e2bc81f50b17")
+		)
+		(pin "2"
+			(uuid "700404aa-ad0a-4d8c-8894-f481906a4484")
+		)
+		(pin "3"
+			(uuid "196891e4-94ee-48e1-91f5-f7493febb9ee")
+		)
+		(pin "4"
+			(uuid "0a6c3be1-5632-4a88-8f8a-de2380ce2a3d")
+		)
+		(instances
+			(project "FuseNumberDisplay"
+				(path "/62ee29c4-ad80-486d-b69a-2aed1f794cde"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
